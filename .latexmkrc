@@ -11,7 +11,7 @@ $latex_silent = 'platex -synctex=1 -halt-on-error -interaction=nonstopmode';
 $bibtex = 'pbibtex';
 
 # div -> pdf output main.pdf 
-$dvipdf = 'dvipdfmx %O -o main.pdf %S';
+$dvipdf = 'dvipdfmx %B';
 
 # index
 $makeindex = 'mendex %O -o %D %S';
