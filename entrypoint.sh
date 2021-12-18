@@ -12,3 +12,4 @@ cd $INPUT_WORKING_DIRECTORY
 latexmk $INPUT_LATEX_FILE_NAME
 latexmk $INPUT_LATEX_FILE_NAME
 latexmk $INPUT_LATEX_FILE_NAME
+echo "it may be successful."
