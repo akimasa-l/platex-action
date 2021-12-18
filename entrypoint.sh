@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # . = /github/workspace if actions/checkout
-set -eux
+set -x
 
 if [ ! -f .latexmkrc ]; then
     cp /.latexmkrc $INPUT_WORKING_DIRECTORY.latexmkrc
