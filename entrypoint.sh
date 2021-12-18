@@ -4,8 +4,9 @@
 set -eux
 
 if [ ! -f .latexmkrc ]; then
-    cp /.latexmkrc .latexmkrc
+    cp /.latexmkrc $WORKING_DIRECTORY.latexmkrc
 fi
 
 # make pdf
+cd $WORKING_DIRECTORY
 latexmk $INPUT_LATEX_FILE_NAME
