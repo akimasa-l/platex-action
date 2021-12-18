@@ -9,7 +9,7 @@ fi
 
 # make pdf
 cd $INPUT_WORKING_DIRECTORY
-latexmk $INPUT_LATEX_FILE_NAME
-latexmk $INPUT_LATEX_FILE_NAME
-latexmk $INPUT_LATEX_FILE_NAME
+latexmk $INPUT_LATEX_FILE_NAME -f 
+latexmk $INPUT_LATEX_FILE_NAME -f 
+latexmk $INPUT_LATEX_FILE_NAME -f 
 echo "it may be successful."
